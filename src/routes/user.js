@@ -1,5 +1,5 @@
 import express from "express";
-import { registerUser,loginUser,logoutUser,refreshAccessToken } from "../controllers/user.js";
+import { registerUser,loginUser,logoutUser,refreshAccessToken,getCurrentUser,changeCurrentPassword,updateAccountDetails,updateUserAvatar,updateUserCoverImage } from "../controllers/user.js";
 import {upload} from "../middlewares/multer.js"
 import { verifyJWT } from "../middlewares/auth.js";
 
